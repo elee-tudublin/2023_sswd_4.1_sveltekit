@@ -1,4 +1,4 @@
-# More SvelteKit
+# SvelteKit Part 2
 
 Enda Lee 2023
 
