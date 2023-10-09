@@ -28,7 +28,7 @@ This lab will cover the following topics:
 1. Content immediately available for user interaction.
 2. Content is accessible to search engine robots.
 
-Another advataage is security and privacy. Secrets such as API keys, crypto keys, passwords, etc. should be be accessible on the client-side. 
+Another advataage is security and privacy. Secrets such as API keys, crypto keys, passwords, etc. should not be be accessible on the client-side. 
 
 When JS fetch is used to obtain data from an API from the browser, the API key must be included in the script. The current NASA APOD page is an example of this as the key can be viewed using the browser developer tools (intentionally blurred in this example):
 
@@ -44,7 +44,7 @@ After making this change, reload the page and check if the script and  API Key a
 
 ## 2. Environment Variables
 
-It is very bad practice for security to hardcode secrets such as passwords, API Keys etc, in scripts or source code. Aside from being visible to who ever has access to the source-code, secrets may also end up in a code repository (eg. GitHub) where they will be accessible by anautorised members of the developmebt team, or even be available publicly.  There are many high profile examples of this happening,  even if it is easy to prevent.
+It is very bad practice for security to hardcode secrets such as passwords, API Keys etc, in scripts or source code. Aside from being visible to who ever has access to the source-code, secrets may also end up in a code repository (eg. GitHub) where they will be accessible by anautorised members of the development team, or even be available publicly.  There are many high profile examples of this happening,  even if it is easy to prevent.
 
 ### 2.1 Using Environment Variables
 
@@ -150,7 +150,7 @@ This example displays a running total. Each time a value is entered and the butt
 
 
 
-## 5. Exercices
+## 5. Exercises
 
 1. Add functionality to allow the running total in part 4 to be reset (via a button click)
 
