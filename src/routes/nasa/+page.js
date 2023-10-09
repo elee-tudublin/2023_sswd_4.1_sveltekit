@@ -1,5 +1,5 @@
 
-/** @type {import('./$types').PageServerLoad} */
+/** @type {import('./$types').PageLoad} */
 export async function load( { fetch, params }) {
 
     // URL NASA APOD
